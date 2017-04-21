@@ -1,0 +1,148 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    background-image:
+    linear-gradient(
+      to bottom right,
+      #8cd98c,
+      #339933 70%
+      );
+}
+a {
+  color: white;
+  font-size: 2rem;
+  padding: 15px;
+}
+
+h1.center.welcome {
+    color: #B0BEC5;
+    padding-top: 1em;
+}
+
+h1.centered.registered {
+    color: #B0BEC5;
+}
+
+h1.login {
+    padding-top: 1em;
+}
+
+h1.center {
+    color: #B0BEC5;
+}
+
+/*shaping card*/
+
+
+
+/*adding scroll box to cat info*/
+.card .card-content {
+    overflow: scroll;
+    height: 9em;
+    background-color: #AED581;
+}
+
+/*changing card title color*/
+.card .card-image .card-title {
+    color: #1B5E20;
+    text-shadow: 1px 1px 5px white;
+}
+
+/*welcome gif*/
+div.displaycat {
+    background: url("https://media1.popsugar-assets.com/files/thumbor/kzUkEhaYWmLfnU6Pi79Eij54B2Y/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/08/08/840/n/1922507/451ce76f4a688e7b_rs_500x281-140808102730-cutest-cat-gifs-please/i/Whatheckyoudoing.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navback {
+  background: #53c653;
+  color: #000000;
+  text-decoration: none;
+
+}
+
+
+
+nav {
+    background: #53c653;
+}
+
+img {
+    border-radius: 5em;
+    width: 25em;
+    height: 22em;
+    opacity: .9;
+    /*z-index: -1;*/
+    box-shadow: 0 2px 8px 2px grey;
+    line-height: 1.4;
+}
+
+/*concat font*/
+a.center.brand-logo {
+    font-family: cursive;
+    color: #E0E0E0;
+}
+
+.heading h1 {
+    color: #8BC34A;
+    font-family: cursive;
+}
+
+/*icon in navbar*/
+icon.right.emoji {
+    font-size: 1.7em;
+}
+
+/*makes cards go in rows*/
+.row .col.m4 {
+    height: 40em;
+}
+
+/*logout btn satisfaction*/
+.btn.btn-lg.logout {
+    background-color: #689F38;
+    width: 8em;
+    /*height: 4.2em;*/
+    /*padding-top: 1em;*/
+    /*text-align: center;*/
+    border-radius: 1em;
+    /*box-shadow: 1px white;*/
+    margin-top: 1em;
+}
+
+.btn.btn-lg.logout:hover {
+    background-color: orange;
+}
+
+/*gives button hover effects*/
+.btn {
+    background: #43A047;
+    margin: 1em;
+}
+
+.btn:hover {
+    background: #33691E;
+}
+
+/*404 pic*/
+.error__image {
+    opacity: 1;
+    display: block;
+    margin: 0 auto;
+}
+
+/*________liked page styling________*/
+.liked-card {
+    margin: 10%;
+}
+.liked-image {
+    max-height: 200px;
+    max-width: 200px;
+}
